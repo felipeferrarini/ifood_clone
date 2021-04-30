@@ -100,11 +100,14 @@ class _IfoodPageState extends State<IfoodPage> {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                Text(
-                  "Ver mais...",
-                  style: TextStyle(
-                    fontSize: 16,
-                    color: Colors.red,
+                InkWell(
+                  onTap: () {},
+                  child: Text(
+                    "Ver mais...",
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: Colors.red,
+                    ),
                   ),
                 )
               ],
